@@ -20,10 +20,10 @@
 <body>
   <span class="glyphicon glyphicon-star"></span>
   
-  <img src="figma_assets/logo.jpg" alt="Des cercles forme un F ">
+  
   <!-- nav......... -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-
+    <img src="figma_assets/logo.jpg" alt="Des cercles forme un F ">
     <div><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -105,26 +105,28 @@
     </div>
   </nav>
   <!-- fin nav.................................. -->
-
-
-  <div><img src="figma_assets/image_1.png" alt=" deux ecrans avec des plantes a l'intérieur">
-
-
-    <div>
-      <p><strong>Prototyping features</strong></p>
-    </div>
-
-
-    <section>
+  <div container-fluid>
+    <section class="prototype">
+      <div class="container row m-auto">
+  <div class="col-md-6 col-lg-6">
+    <div><p><strong>Prototyping features</strong></p></div>
       <h1> Prototype while you design, and vice versa</h1>
       <p> Bring your ideas to life in animated prototypes. Test concepts earlier and more often. Create a better
         blueprint for development</p>
       <p> Get started</p>
-    </section>
+    </div>
+  <div class="col-md-6 col-lg-6">
+      <div><img src="figma_assets/image_1.png" alt=" deux ecrans avec des plantes a l'intérieur" style="width: 100%"></div>
+</div>
+</div>
 
-    <video controls src="figma_assets/video_1.mp4">Le texte à afficher si la vidéo ne se charge pas</video>
+</section>
+    
 
-    <section>
+   
+<section class="create">
+  <div class="container row m-auto">
+<div class="col-md-6 col-lg-6">
       <h2>Create prototypes that feel like the real experience</h2>
       <p>Turn your static design files into an interactive experience—no coding required.</p>
       <ul>
@@ -134,10 +136,12 @@
           button, and more.</li><br>
         <li><strong>Mobile-optimized:</strong> Details like device frames and momentum scrolling make your prototypes
           feel like the real experience.</li><br>
-      </ul>
-    </section>
+      </ul></div>
+      <div class="col-md-6 col-lg-6">
+        <video controls src ="figma_assets/video_1.mp4" alt=" deux ecrans avec des plantes a l'intérieur" style="width: 100%"></div>
+    </div></section>
 
-    <video controls src="figma_assets/video_2.mp4">Le texte à afficher si la vidéo ne se charge pas</video>
+    
     <section>
       <h2>Show, don’t tell your interaction vision</h2>
       <p>Take the guesswork out of development by spelling out the interaction details you envision.</p>
@@ -281,7 +285,7 @@
               <p>Manage Cookies</p>
 
 
-    </section>
+    </section></div>
 
 
 </body>
