@@ -1,4 +1,16 @@
-.prototype{
+#prototype{
+    background-color:#699bf7;
+    color: black;
+    font-family: 54px White,sans-serif;
+
+}
+.werun{
+    background-color:#699bf7;
+    color: black;
+    font-family: 54px White,sans-serif;
+}
+
+.other{
     background-color:#699bf7;
     color: black;
     font-family: 54px White,sans-serif;
