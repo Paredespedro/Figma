@@ -7,10 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reproduction page Figma</title>
 
-  <link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
 
-  
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
 </head>
 
 <body>
@@ -28,9 +30,9 @@
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
+        <li class="nav-item"></li>
+
+
 
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -101,33 +103,42 @@
     </div>
   </nav>
   <!-- fin nav.................................. -->
-  
-  <section container-fluid row id="prototype">
-    
-        <div class="col-xs-12 col-md-6 col-lg-6">
-          <div><img src="figma_assets/image_1.png" alt=" deux ecrans avec des plantes a l'intérieur"
-              style="width: 100%"></div>
+  <!--  partie prototype while -->
+  <section id="prototy">
+
+    <div class="row justify-content-center ">
+
+      <div class="col-md-6">
+        <div><img src="figma_assets/image_1.png" alt=" deux ecrans avec des plantes a l'intérieur" style="width: 100%">
         </div>
-      
-      <div class="col-xs-12 col-md-6 col-lg-6">
-        
-          <p><strong>Prototyping features</strong></p>
-        
+      </div>
+
+      <div class="col-xs-12 order-last col-sm-12 order-last col-md-6 order-md-first">
+        <!-- Jeux tetris image;texte -->
+
+
+        <p><strong>Prototyping features</strong></p>
+
         <h1> Prototype while you design, and vice versa</h1>
-        <p> Bring your ideas to life in animated prototypes. Test concepts earlier and more often. Create a better
+        <p> Bring your ideas to life in animated prototypes. Test concepts earlier and more often.Create a better
           blueprint for development</p>
         <p> Get started</p>
+      </div>
+    </div>
+  </section>
+  <!-- Fin partie prototype while -->
 
-      </div></section>
+  <!--  partie prototype create prototypes -->
+  <section class="create">
+    <div class="container m-auto">
+      <div class="row justify-content-center">
 
-<section container fluid row id="create">
+        <div class="col-md-6">
+          <video autoplay loop muted src="figma_assets/video_1.mp4" type="video/mp4" style="width: 100%"></video></div>
 
-      <div class="col-md-6 col-lg-6">
-        <video autoplay loop muted src="figma_assets/video_1.mp4" type="video/mp4"
-          style="width: 100%"></video></div>
 
-          <div class="col-md-6 col-lg-6">
-        
+        <div class="col-xs-12 order-last col-sm-12 order-last col-md-6 order-md-first">
+
           <h2>Create prototypes that feel like the real experience</h2>
           <p>Turn your static design files into an interactive experience—no coding required.</p>
           <ul>
@@ -141,20 +152,24 @@
               prototypes
               feel like the real experience.</li><br>
           </ul>
-        </div></section>
-        
-      
-    
-
-
-    <section class="show">
-      <div class="container row m-auto">
-        <div class="col-md-6 col-lg-6">
-          <video autoplay loop muted src="figma_assets/video_2.mp4" type="video/mp4"
-          style="width: 100%"></video></div>
         </div>
 
-        <div class="col-md-6 col-lg-6">
+      </div>
+    </div>
+  </section>
+  <!-- Fin partie create prototype -->
+
+  <!-- Début partie show, dont't..... -->
+
+  <section class="show">
+    <div class="container m-auto">
+      <div class="row justify-content-center">
+
+        <div class="col-md-6">
+          <video autoplay loop muted src="figma_assets/video_2.mp4" type="video/mp4" style="width: 100%"></video></div>
+
+
+        <div class="col-xs-12 order-first col-sm-12 order-first col-md-6 order-md-last">
           <h2>Show, don’t tell your interaction vision</h2>
           <p>Take the guesswork out of development by spelling out the interaction details you envision.</p>
 
@@ -164,12 +179,17 @@
           <li><strong>Animated GIFs:</strong> Use GIFs to represent motion designs, video elements, and subtle
             animations.</li><br>
         </div>
-      </div>
-    </section>
 
-    <section class="werun">
-      <div class="container row m-auto">
-        <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+      </div>
+    </div>
+  </section>
+  <!-- Fin partie show, dont't..... -->
+
+  <!-- Début partie We run a really  -->
+  <section class="werun">
+    <div class="container m-auto">
+      <div class="row justify-content-center">
+        <div class="col-10">
 
           <h1>"We run a really fast design process. We’re constantly building, testing, and iterating. Being able to
             pull together a prototype in Figma so quickly and easily is massive for us."</h1>
@@ -177,12 +197,16 @@
           <br>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+  <!-- Fin partie We run a really -->
 
-
-    <section class="doitall">
-      <div class="container row m-auto">
-        <div class="col-md-6 col-lg-6">
+  <!-- Début partie Do it all -->
+  <section class="doitall">
+    <div class="container m-auto">
+      <div class="row justify-content-center">
+        <div
+          class="col-xs-12 order-last col-sm-12 order-last col-md-6 order-md-firstcol-xs-12 order-last col-sm-12 order-last col-md-6 order-md-first">
           <h2>Do it all in one single tool</h2>
           <p>No more jumping between tools. Design, prototype, share, and collect feedback all in Figma.<br></p>
           <ul>
@@ -195,31 +219,31 @@
           </ul>
         </div>
         <div class="col-md-6 col-lg-6">
-          <video autoplay loop muted src="figma_assets/video_3.mp4" type="video/mp4"
-          style="width: 100%"></video></div>
-        </div>
+          <video autoplay loop muted src="figma_assets/video_3.mp4" type="video/mp4" style="width: 100%"></video></div>
       </div>
-    </section>
+
+    </div>
+  </section>
 
 
 
+  <!-- Début partie other ways to ..... -->
 
+  <section class="other">
+    <div class="container m-auto">
+      <div class="row justify-content-center">
 
-    <section class="other">
-      <div class="container row m-auto">
-        <div class="col-md-12 col-lg-12">
+        <h1 class="text-center">Other ways to use Figma prototypes<br></h1>
 
-
-          <h1>Other ways to use Figma prototypes<br></h1>
-        </div>
         <div class="col-md-4 col-lg-4">
           <ul style="list-style-type:'✱'">
 
             <li>Observe a test subject in research sessions
             </li><br>
             <li>Create presentation slides to pitch your work</li><br>
+          </ul>
         </div>
-        </ul>
+
         <div class="col-md-4 col-lg-4">
           <ul style="list-style-type:'✱'">
 
@@ -229,129 +253,139 @@
         </div>
 
       </div>
-    </section>
-
-    <section class="see">
-      <div class="container row m-auto">
-        <div class="col-md-6 col-lg-6">
-
-          
-            <h2>See how Figma can help you design from star to finish</h2>
-          </div>
-
-          <div>
-            <div><a href="https://www.figma.com/design/"><img src="figma_assets/image_2.png"
-                  alt="Un carré a l'intérieur d'un polygone" /></a>
-              <a href="https://www.figma.com/design/"><strong>Design</strong></a><br><br>
-              <a href="https://www.figma.com/design/">Learn more</a></div>
-          </div><br />
-          <div>
-
-            <div><a href="https://www.figma.com/design-systems/"><img src="figma_assets/image_3.png"
-                  alt="forme rond et ovale dans une tache verte" /></a>
-              <a href="https://www.figma.com/design-systems/"><strong>Design Systems</strong></a><br><br/>
-              <a href="https://www.figma.com/design-systems/"><strong>Learn more</strong></a><br><br>
-
-            <div><a href="https://www.figma.com/collaboration/"><img src="figma_assets/image_4.png"
-                  alt="forme de huit couleur jaune" /></a>
-              <a href="https://www.figma.com/collaboration/"><strong>Collaboration</strong></a><br><br/>
-              <a href="https://www.figma.com/collaboration/"><strong>Learn more</strong></a><br><br>
-    </section>
-
-    <!-- Inscription -->
-    <section>
-      <h2>Try Figma for free.</h2><br>
-      <p>Unable to get profile information from Google</p>
-    </section>
-
-    <div class="d-grid gap-2 col-6 mx-auto">
-      <button type="button" class="btn btn-outline-dark">Sign up with</button>
-      <p>or</p>
-
-      <button type="button" class="btn btn-outline-dark">Email</button>
-      <button type="button" class="btn btn-outline-dark">Password</button>
-      <button type="button" class="btn btn-dark">Creat account</button><br>
-
-      <a href="https://www.figma.com/prototyping/">Singn up with SAML SSO</a>
-      <a href="https://www.figma.com/prototyping/">Forgot password?</a>
-      <p>No account?<a href="https://www.figma.com/prototyping/">Create one</p></a>
     </div>
-    <section>
-      <h2>Figma</h2><br><br>
+  </section>
+  <!-- fin partie other ways to ..... -->
 
-      <i class="fab fa-twitter"></i>
+  <!-- Début partie see how Figma -->
 
-
-
-      <p><strong>Use Cases</strong></p>
-      <p>UI design</p>
-      <p>UX design</p>
-      <p>Graphic design</p>
-      <p>Wire framing</p>
-      <p>Diagramming</p>
-      <p>Brainstorming</p>
-      <p>Templates</p>
-      <p>Remote design</p>
-
-      <p><strong>Explore</strong></p><br>
-      <p>Design features</p>
-      <p>Prototyping features</p>
-      <p>Design systems features</p>
-      <p>Collaboration features</p>
-      <p>FigJam</p>
-      <p>Pricing</p>
-      <p>Figma Organization</p>
-      <p>Students and educators</p>
-      <p>Customers</p>
-      <p>Security</p>
-      <p>Integrations</p>
-      <p>Contact</p>
+  <section class="see">
+    <div class="container m-auto">
+      <div class="row justify-content-center">
 
 
 
-      <p><strong>Resources</strong>
-        <p><br>
-          <p>Blog</p>
-          <p>Best practices</p>
-          <p>Support</p>
-          <p>Developers</p>
-          <p>Learn design</p>
-          <p>Downloads</p>
-          <p>What's new</p>
-          <p>Releases</p>
-          <p>Careers</p>
-          <p>About us</p>
-          <p>Agency partners</p>
-          <p>Privacy</p>
-          <p>Status</p>
+        <h2>See how Figma can help you design from star to finish</h2>
 
 
-          <p><strong>Compare</strong>
-            <p><br>
-              <p>Sketch</p>
-              <p>Adobe XD</p>
-              <p>Invision Studio</p>
-              <p>Framer</p>
-              <p>Design on Windows</p><br><br>
+        <div class="col-12 col-md-4">
+          <a href="https://www.figma.com/design-systems/"><img src="figma_assets/image_2.png"
+              alt="forme rond et ovale dans une tache verte" />
+            <p><strong>Design</strong></p>
+            <p><strong>Learn more</strong></p>
+          </a></div>
 
-              <p>Manage Cookies</p>
+        <div class="col-md-4">
 
+          <a href="https://www.figma.com/design-systems/"><img src="figma_assets/image_3.png"
+              alt="forme rond et ovale dans une tache verte" />
+            <p><strong>Design Systems</strong></p>
+            <p><strong>Learn more</strong></p>
+          </a>
+        </div>
 
-    </section>
+        <div class="col-md-4">
+          <a href="https://www.figma.com/design-systems/"><img src="figma_assets/image_4.png"
+              alt="forme rond et ovale dans une tache verte" />
+            <p><strong>Collaboration</strong></p>
+            <p><strong>Learn more</strong></p>
+          </a></div>
+      </div>
+    </div>
+    
+  </section>
+  <!-- Fin partie see how Figma -->
+
+  <!-- Inscription -->
+  <section>
+    <h2>Try Figma for free.</h2></br>
+    
+  </section>
+
+  <div class="d-grid gap-2 col-6 mx-auto">
+    
+    <button type="button" <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+      <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+    </svg>class="btn btn-outline-dark">Sign up with</button>
+    <center><p>or</p></center>
+
+    <button type="button" class="btn btn-outline-dark">Email</button>
+    <button type="button" class="btn btn-outline-dark">Password</button>
+    <button type="button" class="btn btn-dark">Creat account</button>
+
+    <center><a href="https://www.figma.com/prototyping/">Singn up with SAML SSO</a></center><br>
+    <a href="https://www.figma.com/prototyping/">Forgot password?</a>
+    <p>No account?<a href="https://www.figma.com/prototyping/">Create one</p></a></center>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-  integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
-  crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-  crossorigin="anonymous"></script>
+  <section>
 
+
+
+    <h2>Figma</h2><br><br>
+
+    <i class="fab fa-twitter"></i>
+
+
+
+    <p><strong>Use Cases</strong></p>
+    <p>UI design</p>
+    <p>UX design</p>
+    <p>Graphic design</p>
+    <p>Wire framing</p>
+    <p>Diagramming</p>
+    <p>Brainstorming</p>
+    <p>Templates</p>
+    <p>Remote design</p>
+
+    <p><strong>Explore</strong></p><br>
+    <p>Design features</p>
+    <p>Prototyping features</p>
+    <p>Design systems features</p>
+    <p>Collaboration features</p>
+    <p>FigJam</p>
+    <p>Pricing</p>
+    <p>Figma Organization</p>
+    <p>Students and educators</p>
+    <p>Customers</p>
+    <p>Security</p>
+    <p>Integrations</p>
+    <p>Contact</p>
+
+
+
+    <p><strong>Resources</strong>
+      <p><br>
+        <p>Blog</p>
+        <p>Best practices</p>
+        <p>Support</p>
+        <p>Developers</p>
+        <p>Learn design</p>
+        <p>Downloads</p>
+        <p>What's new</p>
+        <p>Releases</p>
+        <p>Careers</p>
+        <p>About us</p>
+        <p>Agency partners</p>
+        <p>Privacy</p>
+        <p>Status</p>
+
+
+        <p><strong>Compare</strong>
+          <p><br>
+            <p>Sketch</p>
+            <p>Adobe XD</p>
+            <p>Invision Studio</p>
+            <p>Framer</p>
+            <p>Design on Windows</p><br><br>
+
+            <p>Manage Cookies</p>
+
+
+  </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
