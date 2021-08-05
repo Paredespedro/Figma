@@ -1,23 +1,39 @@
-#prototy{
-    background-color:#699bf7;
+#sign {
+    position: fixed;
+    left: 70%;
+}
+
+
+
+
+
+
+#prototy {
+    background-color: #699bf7;
     color: black;
     text-align: center;
 
 }
-.werun{
-    background-color:#699bf7;
+
+.werun {
+    background-color: #699bf7;
     color: black;
-    font-family: 54px White,sans-serif;
+    font-family: 54px White, sans-serif;
 }
 
-.other{
-    background-color:#699bf7;
+.other {
+    background-color: #699bf7;
     color: black;
-    font-family: 54px White,sans-serif;
+    font-family: 54px White, sans-serif;
 }
-h1, h2, h3, h4 {
+
+h1,
+h2,
+h3,
+h4 {
     text-align: center;
 }
-.see img{
+
+.see img {
     max-width: 360px;
 }
